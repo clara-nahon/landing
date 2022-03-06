@@ -1,0 +1,29 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.card {
+	background: #e8b69b;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    BOX-SHADOW: 0px 10px 30px;
+    border-radius: 10px;
+    margin: 20px 0px;
+    flex-basis: 320px;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+.card img {
+	width: 200px;
+    border-radius: 10px;
+}
+
+.card h3 {
+	font-style: italic;
+    font-family: roboto;
+    text-align: left;
+    font-size: 18px;
+}
